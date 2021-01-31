@@ -1,0 +1,28 @@
+{
+    "name": "php-cpm/ip-address",
+    "type": "library",
+    "description": "Get Real Ip Region",
+    "keywords": [
+        "ip",
+        "ip2region"
+    ],
+    "license": "MIT",
+    "require": {
+        "ext-json": "*",
+        "ipip/db": "^1.0",
+        "zoujingli/ip2region": "^1.0",
+        "maxmind-db/reader": "^1.9",
+        "ip2location/ip2location-php": "^8.3",
+        "itbdw/ip-database": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpCpm\\IpAddress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpCpm\\IpAddress\\": "tests/"
+        }
+    }
+}
